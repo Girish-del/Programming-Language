@@ -1,3 +1,5 @@
+Take pull from the above branch
+|
 # Setup tools
 1. sudo apt update
 2. sudo apt install default-jre python3-pip -y
@@ -5,9 +7,6 @@
 
 # Go to working folder
 wget https://www.antlr.org/download/antlr-4.13.0-complete.jar
-
-# Create the 4 files: MarathiCode.g4, MarathiInterpreter.py, main.py, sample.mc
-# (Follow steps above to paste contents)
 
 # Generate ANTLR parser
 java -Xmx500M -cp ".:antlr-4.13.0-complete.jar" org.antlr.v4.Tool -Dlanguage=Python3 -visitor -listener MarathiCode.g4
