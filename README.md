@@ -1,7 +1,7 @@
 # Setup tools
-sudo apt update
-sudo apt install default-jre python3-pip -y
-pip install antlr4-python3-runtime
+1. sudo apt update
+2. sudo apt install default-jre python3-pip -y
+3. pip install antlr4-python3-runtime
 
 # Go to working folder
 wget https://www.antlr.org/download/antlr-4.13.0-complete.jar
